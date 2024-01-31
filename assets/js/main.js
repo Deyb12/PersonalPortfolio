@@ -82,3 +82,10 @@ function scrollToContact() {
     aboutSection.scrollIntoView({ behavior: "smooth" });
   }
 }
+function scrollToProject() {
+  var aboutSection = document.getElementById("projects");
+
+  if (aboutSection) {
+    aboutSection.scrollIntoView({ behavior: "smooth" });
+  }
+}
